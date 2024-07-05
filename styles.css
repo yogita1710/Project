@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    color: white;
+}
+
+.header-cont {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 16px;
+}
+
+.menu ul li a {
+    font-weight: 400;
+    font-family: oswald;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li:last-child a {
+    border: 2px solid #f8f9fa;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0.375rem 1.35rem;
+    color: white;
+    border-radius: 3px;
+}
+
+.menu ul li a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.menu ul li:last-child a:hover {
+    background-color: black;
+    color: white;
+}
+
+.inner-header::-webkit-scrollbar {
+    position: fixed;
+}
+
+.banner {
+    text-align: center;
+}
+
+.box{
+    padding:30px;
+}
+
+.box p {
+font-size: 16px;
+line-height:2em;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    padding-top: 100px;
+    font-family: rubik;
+}
+
+.banner p {
+    font-size: 23px;
+    color: #ffb8f6;
+    font-weight: 300;
+    font-family: rubik;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.banner img {
+    height: 20%;
+    overflow: hidden;
+}
+
+.diff-images {
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.features{
+    padding-top:80px;
+    padding-bottom: 80px;
+    background-color: #faf6fb;
+    text-align: center;
+}
+.features p{
+    color: #998a9b;
+    font-weight: 400;
+    font-family: rubik;
+    font-size: 13px;
+}
+.features h3{
+    color: #633991;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: rubik;
+    margin-bottom: 3rem;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    text-align: left;
+}
+.col-12 h4{
+    margin-bottom:10px;
+}
+.col-12{
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 5px 7px 0px rgb(0 0 0 / 4%);
+   padding: 20px;
+   max-width: 33.333333%;
+   margin-right:30px;
+   
+}
+.col-12:before{
+    content: " ";
+    position: absolute;
+    width: 3px;
+    color: #fc73b4;
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
